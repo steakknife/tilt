@@ -18,7 +18,7 @@ group :engines do
   gem 'liquid'
   gem 'markaby'
   gem 'maruku'
-  gem 'nokogiri' if RUBY_VERSION > '1.9.2'
+  #gem 'nokogiri' if RUBY_VERSION > '1.9.2' # optional because nokogiri (libxml2) is badly maintained
   gem 'radius'
   gem 'sass'
   gem 'rdoc', (ENV['RDOC_VERSION'] || '> 0')
